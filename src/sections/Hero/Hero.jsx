@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroimg from '../../assets/hero1.png';
+import heroimg from '../../assets/WhatsApp Image 2024-12-29 at 11.40.42.jpeg';
 import sun from '../../assets/sun-svgrepo-com.svg';
 import moon from '../../assets/moon.png';
 import facebookicom_l from '../../assets/facebook-svgrepo-com.svg';
