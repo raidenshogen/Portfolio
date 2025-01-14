@@ -11,6 +11,7 @@ function Skills() {
         <SkillList src={check_l} skill='JAVASCRIPT'/>
         <SkillList src={check_l} skill='C++'/>
         <SkillList src={check_l} skill='CSHARP'/>
+        <SkillList src={check_l} skill='ASP.NETCORE'/>
         </div>
         <hr />
         <div className={styles.skillList}>
@@ -18,12 +19,14 @@ function Skills() {
         <SkillList src={check_l} skill='DJANGO'/>
         <SkillList src={check_l} skill='UML'/>
         <SkillList src={check_l} skill='UNIX'/>
+        <SkillList src={check_l} skill='REDHAT'/>
         <SkillList src={check_l} skill='BOOSTRAP'/>
         </div>
         <hr />
         <div className={styles.skillList}>
         <SkillList src={check_l} skill='SQL' />
         <SkillList src={check_l} skill='PHP' />
+        <SkillList src={check_l} skill='JAVA' />
         <SkillList src={check_l} skill='ORACLE' />
         <SkillList src={check_l} skill='TSQL' />
         <SkillList src={check_l} skill='SYNPHONIE' />

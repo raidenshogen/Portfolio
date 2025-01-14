@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroimg from '../../assets/hero1.png';
+import heroimg from '../../assets/hero2.jpeg';
 import sun from '../../assets/sun-svgrepo-com.svg';
 import moon from '../../assets/moon.png';
 import facebookicom_l from '../../assets/facebook-svgrepo-com.svg';
@@ -8,7 +8,7 @@ import githubicom_l from '../../assets/github-svgrepo-com.svg';
 import githubicom_d from '../../assets/github_dark.png';
 import linkdinicom_l from '../../assets/linkedin-svgrepo-com.svg';
 import linkdinicom_d from '../../assets/linkedin_dark.svg';
-import cv from '../../assets/mon cv en 2024.pdf';
+import cv from '../../assets/mon cv en 2025.pdf';
 import { useTheme } from '../../common/ThemeContext.jsx';
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -28,8 +28,7 @@ function Hero() {
      <h1>Zineb
      <br /> 
      Nafil</h1>
-     <h2>Futur UX/UI <br />
-     Frontend Developer</h2>
+     <h2>Full-Stack Developer</h2>
      <span>
         <a href="https://facebook.com" target='_blank'>
         <img src={facebookicom} alt="facebook icon" width='40px'/></a>
@@ -45,7 +44,6 @@ function Hero() {
    </div>
  </section>)
     
-  
 }
 
 export default Hero;
